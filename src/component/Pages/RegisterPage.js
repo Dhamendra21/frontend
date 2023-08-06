@@ -7,7 +7,7 @@ export default function RegisterPage(){
   const [password,setpassword] = useState('')
   async  function Register(ev){
     ev.preventDefault()
-  const response =  await fetch('http://localhost:4000/register',{
+  const response =  await fetch('https://backend-gothbaat.onrender.com/register',{
       method : "post",
       body : JSON.stringify({username,password}),
       headers:{'Content-Type':'application/json'}
