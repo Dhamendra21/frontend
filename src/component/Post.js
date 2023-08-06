@@ -21,7 +21,7 @@ export default function Post({_id,title,summary,cover,content,createdAt,author})
             <div className="row g-0">
               <div className="col-md-4">
                 <Link to={`/post/${_id}`}>
-                  <img src={`http://localhost:4000/${cover}`} className="img-fluid rounded-start" alt="..." />
+                  <img src={`https://backend-gothbaat.onrender.com/${cover}`} className="img-fluid rounded-start" alt="..." />
                 </Link>
               </div>
               <div className="col-md-8">
