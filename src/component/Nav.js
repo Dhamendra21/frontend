@@ -8,7 +8,7 @@ import { UserContext } from "./UserContext"
 export default  function Nav(){
  const {setuserInfo,userInfo} = useContext(UserContext)
   useEffect(()=>{
-    fetch('http://localhost:4000/profile',{
+    fetch('https://backend-gothbaat.onrender.com/profile',{
       credentials :'include',
     }).then(response =>{
       response.json().then(userInfo=>{
@@ -18,7 +18,7 @@ export default  function Nav(){
   },[])
 
 function logout(){
-  fetch('http://localhost:4000/logout',{
+  fetch('https://backend-gothbaat.onrender.com/logout',{
     credentials:'include',
     method: 'POST'
   })
