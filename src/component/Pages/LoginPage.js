@@ -10,7 +10,7 @@ export default function LoginPage(){
   const {setuserInfo} = useContext(UserContext)
   async  function Register(ev){
     ev.preventDefault()
-  const response =  await fetch('http://localhost:4000/login',{
+  const response =  await fetch('https://backend-gothbaat.onrender.com/login',{
       method : "post",
       body : JSON.stringify({username,password}),
       headers:{'Content-Type':'application/json'},
