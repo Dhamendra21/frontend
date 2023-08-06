@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+.logo{
+  width: 200px;
+}
+.post-img{
+  height: 200px;
+  object-fit: cover;
+}
+.img-container{
+  object-fit: contain;
+}
+.edit-row{
+  width: 200px;
+}
+/* Postpage.css */
+.postpage-container {
+  height: 100vh; /* Set the container height to the full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* @media (max-width: 768px) {
+  Adjust styles for mobile screens (max-width: 768px)
+  .postpage-container {
+    padding: 0 10px; Add some padding on mobile screens for better readability
+  }
+
+  .col-md-8.border.content-box {
+    width: 780px; Make the content take full width on mobile screens
+  }
+} */
+.share-btn{
+  width: 200px;
+}
+.ad-box img{
+ width: 100%;
+}
+@media (min-width:786px) {
+  .content-box{
+    background: rgb(241, 241, 241);
+    box-sizing: content-box;
+    width: 100%;
+    
+  }
+  .content-box img{
+  width: 500px;
+  
+  }
+}
+@media (max-width:786px) {
+  .content-box img{
+    width: 100%;
+    }
+    .content-box{
+      
+
+    }
+    
+}
