@@ -43,8 +43,8 @@ export default function Nav() {
             )}
             {!username && (
               <>
-                <Link to={"/login"} className="btn btn-outline-success">login</Link>
-                <Link to={"/register"} className="btn btn-dark mx-2">Register</Link>
+                {/* <Link to={"/login"} className="btn btn-outline-success">login</Link>
+                <Link to={"/register"} className="btn btn-dark mx-2">Register</Link> */}
               </>
             )}
           </div>

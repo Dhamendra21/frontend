@@ -1,9 +1,7 @@
 .App {
   text-align: center;
 }
-.logo{
-  width: 200px;
-}
+
 .post-img{
   height: 200px;
   object-fit: cover;
@@ -49,6 +47,9 @@
   width: 500px;
   
   }
+  .logo{
+    width: 200px;
+  }
 }
 @media (max-width:786px) {
   .content-box img{
@@ -57,6 +58,10 @@
     .content-box{
       
 
+    }
+    .logo{
+      width: 200px;
+      margin-left: 83px;
     }
     
 }
