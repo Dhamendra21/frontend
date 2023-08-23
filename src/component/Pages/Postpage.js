@@ -126,7 +126,7 @@ export default function Postpage() {
     
     <div class="col-md-4 ">{/* side wala ad contianer */}
       <div className="ad-box">
-      <img className="my-3" src={Pankaj}/>
+      {/* <img className="my-3" src={Pankaj}/> */}
       <img src={logo}/>
 
       </div>
