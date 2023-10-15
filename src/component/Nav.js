@@ -31,9 +31,9 @@ export default function Nav() {
     <div className=" d-block">
       <nav className="navbar bg-body-tertiary">
         <div className="container-fluid">
-          <Link  className="navbar-brand">
+          {/* <Link  className="navbar-brand"> */}
             <img src={logo} className="logo" alt="..." />
-          </Link>
+          {/* </Link> */}
           <div>
             {username && (
               <>
