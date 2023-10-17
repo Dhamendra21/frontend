@@ -1,3 +1,8 @@
+@font-face {
+  font-family: devnagiri;
+  src: url(./NotoSerifDevanagari-VariableFont_wdth\,wght.ttf);
+}
+
 .App {
   text-align: center;
 }
@@ -41,19 +46,21 @@
     background: rgb(241, 241, 241);
     box-sizing: content-box;
     width: 100%;
+    font-family: devnagiri;
     
   }
   .content-box img{
-  width: 500px;
-  
+  width: 90%;
+  height: 90%;
   }
   .logo{
     width: 200px;
   }
 }
-@media (max-width:786px) {
+@media (max-width:600px) {
   .content-box img{
     width: 100%;
+    height: 100%;
     }
     .content-box{
       
@@ -64,4 +71,33 @@
       margin-left: 83px;
     }
     
+}
+.loader {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: block;
+  margin:15px auto;
+  position: relative;
+  color: #7f7e7e;
+  box-sizing: border-box;
+  animation: animloader 2s linear infinite;
+}
+
+@keyframes animloader {
+  0% {
+    box-shadow: 14px 0 0 -2px,  38px 0 0 -2px,  -14px 0 0 -2px,  -38px 0 0 -2px;
+  }
+  25% {
+    box-shadow: 14px 0 0 -2px,  38px 0 0 -2px,  -14px 0 0 -2px,  -38px 0 0 2px;
+  }
+  50% {
+    box-shadow: 14px 0 0 -2px,  38px 0 0 -2px,  -14px 0 0 2px,  -38px 0 0 -2px;
+  }
+  75% {
+    box-shadow: 14px 0 0 2px,  38px 0 0 -2px,  -14px 0 0 -2px,  -38px 0 0 -2px;
+  }
+  100% {
+    box-shadow: 14px 0 0 -2px,  38px 0 0 2px,  -14px 0 0 -2px,  -38px 0 0 -2px;
+  }
 }

@@ -42,7 +42,9 @@ export default function Postpage() {
     });
   }, []);
 
-  if (!postInfo) return "";
+  if (!postInfo) return(
+    <span class="loader"></span>
+  );
   return (
     <div class="container ">
   
